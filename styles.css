@@ -2,14 +2,21 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Añade estilos para el encabezado */
 .bg-purple {
-    background-color: #b19cd9; /* Lila suave */
+    background-color: #b19cd9 !important; /* !important para asegurarte de que sobrescribe otras reglas */
 }
 
-.text-purple {
-    color: #b19cd9; /* Lila suave */
+.text-white {
+    color: #fff !important; /* !important para asegurarte de que sobrescribe otras reglas */
 }
 
+/* Añade estilos para justificar los párrafos dentro de <p> */
+.text-justify p {
+    text-align: justify;
+}
+
+/* Estilos originales sin cambios */
 .bg-light {
     background-color: #f8f9fa; /* Gris claro */
 }
@@ -17,3 +24,8 @@ body {
 .text-dark {
     color: #343a40; /* Gris oscuro */
 }
+
+.text-purple {
+    color: #b19cd9; /* Lila suave */
+}
+
