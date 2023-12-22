@@ -7,11 +7,21 @@
     <!-- Enlace a Bootstrap desde CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .rounded-box {
+            border-radius: 10px;
+            overflow: hidden;
+        }
+    </style>
 </head>
 <body>
 
 <!-- Encabezado -->
-<header class="bg-primary text-white text-center py-5">
+<header class="bg-primary text-white text-center py-5 rounded-box">
     <div class="container">
         <h1>Portfolio de María Martín Lobo</h1>
         <h2>Communication & Social Media Specialist</h2>
@@ -19,10 +29,10 @@
 </header>
 
 <!-- Contenido principal -->
-<div class="container my-5">
+<div class="container my-5 rounded-box">
 
     <!-- Sección de contacto -->
-    <section class="contact-section">
+    <section class="contact-section rounded-box">
         <h2 class="text-center mb-4">Contacto</h2>
         <ul class="list-unstyled text-center">
             <li><a href="https://www.linkedin.com/in/maria-martin-lobo">LinkedIn</a></li>
@@ -32,16 +42,16 @@
     </section>
 
     <!-- Descripción -->
-    <section class="description-section my-5">
+    <section class="description-section my-5 rounded-box">
         <h2>Descripción para el Portfolio</h2>
         <p>Este portfolio es un compendio de textos, diseños y demás contenidos audiovisuales que creo representan mi capacidad creativa. Aquí encontrarás una muestra representativa de mi habilidad para fusionar creatividad y profesionalismo en cada proyecto, destacando tanto en el diseño visual como en la redacción.</p>
     </section>
 
     <!-- Video -->
-    <section class="video-section my-5">
+    <section class="video-section my-5 rounded-box">
         <h2 class="text-center mb-4">Canva - Presentaciones</h2>
         <p>En este video (narrado por mí) utilizo Canva para la presentación del análisis de «La Rendición de Breda» o «Las Lanzas» de Diego Velázquez para un trabajo universitario...</p>
-        <div class="embed-responsive embed-responsive-16by9">
+        <div class="embed-responsive embed-responsive-16by9 rounded-box">
             <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/1VMiJ8c1cRM" frameborder="0" allowfullscreen></iframe>
         </div>
     </section>
@@ -49,10 +59,11 @@
 </div>
 
 <!-- Pie de página -->
-<footer class="bg-light text-center py-3">
+<footer class="bg-light text-center py-3 rounded-box">
     <p>&copy; 2023 Portfolio de María Martín Lobo</p>
 </footer>
 
 </body>
 </html>
+
 
