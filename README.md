@@ -12,5 +12,5 @@ Este portfolio es un compendio de textos, diseños y demás contenidos audiovisu
 ### Canva - Presentaciones
 En este video (narrado por mí) utilizo Canva para la presentación del análisis de «La Rendición de Breda» o «Las Lanzas» de Diego Velázquez para un trabajo universitario. He optado por utilizar esta herramienta en lugar de otras convencionales como PowerPoint debido a varias ventajas que ofrece en el ámbito de la presentación visual y diseño. Su extensa biblioteca de plantillas y elementos gráficos predefinidos me ha permitido personalizar y mejorar la apariencia de mis materiales de una manera más versátil y creativa.
 
-[Ver Video](https://www.youtube.com/watch?v=1VMiJ8c1cRM)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1VMiJ8c1cRM" frameborder="0" allowfullscreen></iframe>
 
