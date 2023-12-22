@@ -1,26 +1,24 @@
-/* Reset de estilos para eliminar márgenes y rellenos predeterminados */
-body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
-}
+/* Vincula el CSS de Bootstrap */
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
 
-/* Estilos generales */
+/* Estilos adicionales */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #e6f7ff; /* Celeste agradable a la vista */
+    background-color: #e6f7ff;
     color: #333;
     line-height: 1.6;
 }
 
 .container {
     max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+    margin: 20px auto; /* Mayor margen para centrar el contenido */
 }
 
-/* Encabezados */
-h1, h2 {
-    color: #007bff; /* Azul brillante */
+/* Cambia el color del fondo del título y el puesto */
+.header-section {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
 }
 
 /* Estilo para el video */
@@ -31,7 +29,7 @@ iframe {
 
 /* Estilo para la sección de contacto */
 .contact-section {
-    background-color: #fff; /* Fondo blanco para resaltar */
+    background-color: #fff;
     padding: 20px;
     margin-top: 20px;
 }
@@ -51,3 +49,4 @@ iframe {
 .contact-list a:hover {
     text-decoration: underline;
 }
+
