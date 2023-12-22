@@ -4,39 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio de María Martín Lobo</title>
+    <!-- Enlace a Bootstrap desde CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
 
-<div class="container">
-
-    <div class="header-section text-center py-5">
+<!-- Encabezado -->
+<header class="bg-primary text-white text-center py-5">
+    <div class="container">
         <h1>Portfolio de María Martín Lobo</h1>
         <h2>Communication & Social Media Specialist</h2>
     </div>
+</header>
 
-    <div class="contact-section">
-        <h3>Contacto</h3>
-        <ul class="contact-list">
+<!-- Contenido principal -->
+<div class="container my-5">
+
+    <!-- Sección de contacto -->
+    <section class="contact-section">
+        <h2 class="text-center mb-4">Contacto</h2>
+        <ul class="list-unstyled text-center">
             <li><a href="https://www.linkedin.com/in/maria-martin-lobo">LinkedIn</a></li>
             <li><a href="mailto:martin.lobo.maria@gmail.com">martin.lobo.maria@gmail.com</a></li>
             <li>Teléfono: +34 676 79 76 84</li>
         </ul>
-    </div>
+    </section>
 
-    <div class="description-section my-4">
-        <h3>Descripción para el Portfolio</h3>
+    <!-- Descripción -->
+    <section class="description-section my-5">
+        <h2>Descripción para el Portfolio</h2>
         <p>Este portfolio es un compendio de textos, diseños y demás contenidos audiovisuales que creo representan mi capacidad creativa. Aquí encontrarás una muestra representativa de mi habilidad para fusionar creatividad y profesionalismo en cada proyecto, destacando tanto en el diseño visual como en la redacción.</p>
-    </div>
+    </section>
 
-    <div class="video-section">
-        <h3>Canva - Presentaciones</h3>
-        <p>En este video (narrado por mí) utilizo Canva para la presentación del análisis de «La Rendición de Breda» o «Las Lanzas» de Diego Velázquez para un trabajo universitario. He optado por utilizar esta herramienta en lugar de otras convencionales como PowerPoint debido a varias ventajas que ofrece en el ámbito de la presentación visual y diseño. Su extensa biblioteca de plantillas y elementos gráficos predefinidos me ha permitido personalizar y mejorar la apariencia de mis materiales de una manera más versátil y creativa.</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/1VMiJ8c1cRM" frameborder="0" allowfullscreen></iframe>
-    </div>
+    <!-- Video -->
+    <section class="video-section my-5">
+        <h2 class="text-center mb-4">Canva - Presentaciones</h2>
+        <p>En este video (narrado por mí) utilizo Canva para la presentación del análisis de «La Rendición de Breda» o «Las Lanzas» de Diego Velázquez para un trabajo universitario...</p>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/1VMiJ8c1cRM" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
 
 </div>
+
+<!-- Pie de página -->
+<footer class="bg-light text-center py-3">
+    <p>&copy; 2023 Portfolio de María Martín Lobo</p>
+</footer>
 
 </body>
 </html>
