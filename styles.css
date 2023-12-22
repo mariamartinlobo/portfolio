@@ -1,12 +1,19 @@
-/* Aquí puedes añadir estilos adicionales si es necesario */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.rounded {
-    border-radius: 10px;
-    overflow: hidden;
+.bg-purple {
+    background-color: #b19cd9; /* Lila suave */
 }
 
-/* Puedes agregar más estilos personalizados según sea necesario */
+.text-purple {
+    color: #b19cd9; /* Lila suave */
+}
 
+.bg-light {
+    background-color: #f8f9fa; /* Gris claro */
+}
+
+.text-dark {
+    color: #343a40; /* Gris oscuro */
+}
