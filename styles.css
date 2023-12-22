@@ -1,52 +1,12 @@
-/* Vincula el CSS de Bootstrap */
-@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
-
-/* Estilos adicionales */
+/* Aquí puedes añadir estilos adicionales si es necesario */
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #e6f7ff;
-    color: #333;
-    line-height: 1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.container {
-    max-width: 800px;
-    margin: 20px auto; /* Mayor margen para centrar el contenido */
+.rounded {
+    border-radius: 10px;
+    overflow: hidden;
 }
 
-/* Cambia el color del fondo del título y el puesto */
-.header-section {
-    background-color: #007bff;
-    color: #fff;
-    padding: 20px;
-}
-
-/* Estilo para el video */
-iframe {
-    display: block;
-    margin: 20px auto;
-}
-
-/* Estilo para la sección de contacto */
-.contact-section {
-    background-color: #fff;
-    padding: 20px;
-    margin-top: 20px;
-}
-
-/* Estilo para la lista de contacto */
-.contact-list {
-    list-style: none;
-    padding: 0;
-}
-
-/* Estilo para los enlaces de contacto */
-.contact-list a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-.contact-list a:hover {
-    text-decoration: underline;
-}
+/* Puedes agregar más estilos personalizados según sea necesario */
 
