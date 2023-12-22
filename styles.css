@@ -28,3 +28,16 @@ body {
 .text-purple {
     color: #b19cd9; /* Lila suave */
 }
+
+
+.medium-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333; /* Color del texto, puedes ajustarlo según tus preferencias */
+}
+
+.medium-section {
+    background-color: #f8f9fa; /* Color de fondo de la sección, puedes ajustarlo según tus preferencias */
+    padding: 30px;
+}
