@@ -40,7 +40,7 @@ body {
 .custom-medium-button {
     display: inline-block;
     overflow: hidden;
-    border: 2px solid black; /* Añade un contorno de color negro */
+    border: 2px solid #d4cdcd; /* Añade un contorno de color negro */
     border-radius: 15px; /* Ajusta el valor para cambiar la redondez de los bordes */
 }
 
