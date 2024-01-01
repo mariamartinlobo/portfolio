@@ -37,6 +37,16 @@ body {
     color: #333; /* Color del texto, puedes ajustarlo según tus preferencias */
 }
 
+.custom-medium-button {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.custom-medium-button img {
+    width: 100%;
+    height: auto;
+}
+
 .contact-section {
     background-color: #d4c8ea; /* Color de fondo de la sección, puedes ajustarlo según tus preferencias */
     padding: 30px;
