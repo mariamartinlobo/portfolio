@@ -16,11 +16,6 @@ body {
     text-align: justify;
 }
 
-/* Estilos originales sin cambios */
-.bg-light-custom {
-    background-color: #f2edfc; /* Lila claro */
-}
-
 .text-dark {
     color: #343a40; /* Gris oscuro */
 }
