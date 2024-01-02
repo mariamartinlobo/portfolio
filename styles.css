@@ -41,7 +41,7 @@ body {
     display: inline-block;
     overflow: hidden;
     border: 2px solid #d4cdcd; /* Añade un contorno de color negro */
-    border-radius: 10px; /* Ajusta el valor para cambiar la redondez de los bordes */
+    border-radius: 3px; /* Ajusta el valor para cambiar la redondez de los bordes */
 }
 
 .custom-medium-button img {
