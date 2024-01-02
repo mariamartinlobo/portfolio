@@ -18,7 +18,7 @@ body {
 
 /* Estilos originales sin cambios */
 .bg-light {
-    background-color: #f8f9fa; /* Gris claro */
+    background-color: #d5c3f7; /* Gris claro */
 }
 
 .text-dark {
@@ -53,17 +53,7 @@ body {
     border-radius: 15px; /* Ajusta el valor para cambiar la redondez de los bordes de la imagen */
 }
 
-
-.contact-section {
-    background-color: #d4c8ea; /* Color de fondo de la sección, puedes ajustarlo según tus preferencias */
-    padding: 30px;
-}
-
 .work-section {
-    background-color: #f8f9fa; /* Color de fondo de la sección, puedes ajustarlo según tus preferencias */
+    background-color: #d5c3f7; /* Color de fondo de la sección, puedes ajustarlo según tus preferencias */
     padding: 30px;
-}
-
-audio {
-    background-color: #b19cd9 !important;
 }
