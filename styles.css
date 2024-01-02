@@ -41,13 +41,18 @@ body {
     display: inline-block;
     overflow: hidden;
     border: 2px solid #d4cdcd; /* Añade un contorno de color negro */
-    border-radius: 3px; /* Ajusta el valor para cambiar la redondez de los bordes */
+    border-radius: 15px; /* Ajusta el valor para cambiar la redondez de los bordes */
 }
 
 .custom-medium-button img {
     width: 100%;
     height: auto;
 }
+
+.custom-rounded-circle {
+    border-radius: 15px; /* Ajusta el valor para cambiar la redondez de los bordes de la imagen */
+}
+
 
 .contact-section {
     background-color: #d4c8ea; /* Color de fondo de la sección, puedes ajustarlo según tus preferencias */
