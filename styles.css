@@ -63,3 +63,7 @@ body {
     background-color: #f8f9fa; /* Color de fondo de la sección, puedes ajustarlo según tus preferencias */
     padding: 30px;
 }
+
+audio {
+    background-color: #b19cd9; /* Código de color lila */
+}
