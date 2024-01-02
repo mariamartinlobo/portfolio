@@ -65,5 +65,5 @@ body {
 }
 
 audio {
-    background-color: #b19cd9; /* Código de color lila */
+    background-color: #b19cd9 !important;
 }
